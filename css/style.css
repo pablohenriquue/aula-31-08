@@ -1,0 +1,60 @@
+/*ESSE CSS SERVE
+PARA MUDAR AS PROPRIEDADE DO TITULO */
+
+header{
+    background-color: #3db36b;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 10px solid #0f642f;
+}
+
+/*rodapé */
+footer{
+    background-color: #3db36b;
+    color: #fff;
+}
+
+.bold{
+    font-weight: bold;
+    
+}
+
+
+*{padding: 0;margin: 0;box-sizing: border-box; font-family: Helvetica;}
+
+
+#img-1{
+    background-image: url('../img/campussss.PNG');  
+}
+#img-2{
+    background-image: url('../img/knuuuuuuu.PNG')  
+}
+#img-3{
+    background-image: url('../img/mk2.PNG');  
+}
+#img-4{
+    background-image: url('../img/suede.PNG');  
+}
+
+#img-5{
+    background-image: url('../img/tesla1.PNG');  
+}
+#img-6{
+    background-image: url('../img/tnnnn.PNG');  
+}
+.product-image{
+    height: 300px;
+    width: 100%;
+    margin-bottom: 10px;/*Afastar a imagem do conteúdo*/
+    background-position: center;
+    background-size: cover;/*Mostra o max possi da img na área que temos*/
+}
+
+.card{
+    width: 31%;
+    display: inline-block;
+    margin: 1% 1%;
+    padding: 15px;
+    margin-bottom: 10px;
+}
